@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>The Bazaar Box</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>181</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+color: black;
+                       background-color:rgb(109, 126, 120);
+
+   
+border-radius: 0px;                     /* &lt;----  20px  */ 
+border: 1px solid #094065;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>50</y>
+     <width>901</width>
+     <height>433</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView{
+color: black;
+                       background-color: rgb(176, 176, 176);
+
+   
+border-radius: 0px;                     /* &lt;----  20px  */ 
+border: 1px solid #094065;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+border-radius: 5px;                     /* &lt;----  20px  */ 
+border: 2px solid #094065;
+text-align : left;
+                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Склад товаров</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/storage_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/storage_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+border-radius: 5px;                     /* &lt;----  20px  */ 
+border: 2px solid #094065;
+text-align : left;                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Продажи</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/point_of_sale_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/point_of_sale_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+border-radius: 5px;                     /* &lt;----  20px  */ 
+border: 2px solid #094065;
+text-align : left;                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>График продаж</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/monitoring_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/monitoring_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+border-radius: 5px;                     /* &lt;----  20px  */ 
+border: 2px solid #094065;
+text-align : left;                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Вывод отчета</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/print_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/print_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>482</y>
+     <width>451</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+                  /* &lt;----  20px  */ 
+                /* &lt;----  20px  */ 
+border: 1px solid #094065;
+text-align : center;                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Добавить товар</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/add_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/add_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>482</y>
+     <width>451</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+                  /* &lt;----  20px  */ 
+                /* &lt;----  20px  */ 
+border: 1px solid #094065;
+text-align : center;                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Продать товар</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/shopping_bag_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/shopping_bag_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit {
+color: black;
+                       background-color:rgb(200, 200, 200);   
+border-radius: 5px;                    
+border: 2px solid #094065;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>176</x>
+     <y>-1</y>
+     <width>911</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(230, 230, 230);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>0</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Поиск товара по имени:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+border-radius: 10px;                     /* &lt;----  20px  */ 
+border: 1px solid #094065;
+                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/search_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/search_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>0</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Поиск товара по количеству:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>20</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit {
+color: black;
+                       background-color:rgb(200, 200, 200);   
+border-radius: 5px;                    
+border: 2px solid #094065;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{color: black;
+                       background-color:rgb(200,200,200);   
+border-radius: 10px;                     /* &lt;----  20px  */ 
+border: 1px solid #094065;
+                                      
+}
+QPushButton:hover {
+ background:rgb(202, 219, 255);
+transition: 1s;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/search_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/search_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>480</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>© 2023 [The BAzzAR Box]</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>20</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+color: black;
+                       background-color:rgb(200, 200, 200);   
+border-radius: 5px;                    
+border: 2px solid #094065;
+}</string>
+   </property>
+   <property name="text">
+    <string>Обновить страницу</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icons/update_FILL0_wght400_GRAD0_opsz48.svg</normaloff>../icons/update_FILL0_wght400_GRAD0_opsz48.svg</iconset>
+   </property>
+  </widget>
+  <zorder>tableView</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>label_5</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>label_6</zorder>
+  <zorder>pushButton_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

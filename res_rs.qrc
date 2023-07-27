@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/visibility_off_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/visibility_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/how_to_reg_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/login_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/password_FILL0_wght400_GRAD0_opsz48.svg</file>
+    <file>icons/person_FILL0_wght400_GRAD0_opsz48.svg</file>
+  </qresource>
+</RCC>
